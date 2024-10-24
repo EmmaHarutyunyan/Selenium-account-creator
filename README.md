@@ -41,11 +41,10 @@ Code Explanation
     - Selenium: Automates the browser to fill out and submit the Facebook registration form.
     - Input Handling: Collects generated data and interacts with the web form seamlessly.
 
-output = f"""
+Output
 User Information:
 -----------------
-First Name: {first_name}
-Last Name:  {last_name}
-Email:      {email}
-Password:   {password}
-"""
+First Name: [First Name]
+Last Name:  [Last Name]
+Email:      [Email]
+Password:   [Password]
