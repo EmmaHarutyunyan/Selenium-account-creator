@@ -21,14 +21,15 @@ Automated account creation using Selenium and Faker.
    cd selenium-account-creator
 
 2.  Install the required packages using requirements.txt:
-
+    ```bash
     pip install -r requirements.txt
 
 3.  Download Chrome WebDriver:
-
+      
     Ensure that the Chrome WebDriver matches your installed version of Chrome. You can download it from ChromeDriver.
 
 4.  Run the script:
+    ```bash
     python main.py
 
 Code Explanation
