@@ -1,6 +1,6 @@
 # Selenium Account Creator
 
-Automated account creation using Selenium and Faker.
+Automated account creation using Selenium.
 
 ## Features
 
@@ -11,8 +11,10 @@ Automated account creation using Selenium and Faker.
 ## Requirements
 
 - Python 3.x
-- Chrome WebDriver
-
+- Selenium
+- Faker
+- Chrome WebDriver (Ensure it matches your installed version of Chrome)
+- 
 ## Installation
 
 1. Clone the repository:
@@ -34,13 +36,13 @@ Automated account creation using Selenium and Faker.
 
 Code Explanation
 
-    generate_random_password: Generates a secure random password of specified length.
-    Faker: Utilized to create realistic names, emails, and other user data.
-    Selenium: Automates the browser to fill out and submit the Facebook registration form.
-    Input Handling: Collects generated data and interacts with the web form seamlessly.
+    - generate_random_password: Generates a secure random password of specified length.
+    - Faker: Utilized to create realistic names, emails, and other user data.
+    - Selenium: Automates the browser to fill out and submit the Facebook registration form.
+    - Input Handling: Collects generated data and interacts with the web form seamlessly.
 
 Output
-    First Name: [First Name]
-    Last Name: [Last Name]
-    Email: [Email]
-    Password: [Password]
+    - First Name: [First Name]
+    - Last Name: [Last Name]
+    - Email: [Email]
+    - Password: [Password]
