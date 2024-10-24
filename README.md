@@ -14,7 +14,7 @@ Automated account creation using Selenium.
 - Selenium
 - Faker
 - Chrome WebDriver (Ensure it matches your installed version of Chrome)
-- 
+  
 ## Installation
 
 1. Clone the repository:
@@ -45,6 +45,9 @@ Output
 User Information:
 -----------------
 First Name: [First Name]
+
 Last Name:  [Last Name]
+
 Email:      [Email]
+
 Password:   [Password]
