@@ -36,10 +36,10 @@ Automated account creation using Selenium.
 
 Code Explanation
 
-    - generate_random_password: Generates a secure random password of specified length.
-    - Faker: Utilized to create realistic names, emails, and other user data.
-    - Selenium: Automates the browser to fill out and submit the Facebook registration form.
-    - Input Handling: Collects generated data and interacts with the web form seamlessly.
+  • generate_random_password: Generates a secure random password of specified length.
+  • Faker: Utilizes the Faker library to create realistic names, emails, and other user data.
+  • Selenium: Automates the browser to fill out and submit the registration form.
+  • Input Handling: Collects generated data and interacts with the web form seamlessly.
 
 Output
 User Information:
